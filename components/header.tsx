@@ -14,7 +14,7 @@ export default function Header() {
   const { resolvedTheme, theme, setTheme } = useTheme();
   return (
     <section className="flex h-screen items-center justify-center">
-      <div className="container flex flex-col items-center justify-center gap-10 px-4 md:px-6 lg:flex-row lg:gap-16">
+      <div className="container mb-24 flex flex-col items-center justify-center gap-10 px-4 md:mb-0 md:px-6 lg:flex-row lg:gap-16">
         <button
           onClick={() => {
             setTheme(resolvedTheme === "light" ? "dark" : "light");
@@ -79,7 +79,7 @@ export default function Header() {
               <ChevronRight className="h-4 w-4 translate-x-0 transform transition-all duration-300 ease-out group-hover:translate-x-1" />
             </Link>
           </div>
-          <div className="flex gap-x-1 pt-1 font-sans text-sm text-muted-foreground print:hidden">
+          <div className="flex justify-center gap-x-1 pt-1 font-sans text-sm text-muted-foreground md:justify-normal print:hidden">
             <SocialLinks />
           </div>
         </div>
