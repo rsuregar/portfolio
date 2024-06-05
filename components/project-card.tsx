@@ -12,7 +12,7 @@ import Link from "next/link";
 interface Props {
   title: string;
   description: string;
-  dates: string;
+  type: string;
   tags: readonly string[];
   link?: string;
   image?: string;
@@ -27,7 +27,7 @@ interface Props {
 export function ProjectCard({
   title,
   description,
-  dates,
+  type,
   tags,
   link,
   image,
@@ -50,13 +50,13 @@ export function ProjectCard({
         <img
           src={image}
           className="h-40 w-full overflow-hidden object-cover object-top"
-          alt=""
+          alt={"Screenshot of the " + title + " project"}
         />
       )}
       <CardHeader className="">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
-          <time className="font-sans text-xs">{dates}</time>
+          <time className="font-sans text-xs">{type}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
