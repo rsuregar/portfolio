@@ -58,7 +58,7 @@ export default function SocialLinks() {
               aria-label="Send an email"
               asChild
             >
-              <a href={`mailto:${contact.email}`}>
+              <a href={`mailto:${contact.email}`} target="_blank">
                 <MailIcon className="size-4" />
               </a>
             </Button>
@@ -79,7 +79,7 @@ export default function SocialLinks() {
               aria-label="Send an phone call"
               asChild
             >
-              <a href={`tel:${contact.tel}`}>
+              <a href={`tel:${contact.tel}`} target="_blank">
                 <PhoneIcon className="size-4" />
               </a>
             </Button>
@@ -99,7 +99,7 @@ export default function SocialLinks() {
               aria-label="Link to my GitHub profile"
               asChild
             >
-              <a href={social.url}>
+              <a href={social.url} target="_blank">
                 <social.icon className="size-4" />
               </a>
             </Button>
