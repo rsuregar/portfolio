@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, ChevronsDown } from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { Icons } from "./icons";
@@ -13,7 +13,7 @@ import { buttonVariants } from "./ui/button";
 export default function Header() {
   const { resolvedTheme, theme, setTheme } = useTheme();
   return (
-    <section className="h-screen flex justify-center items-center py-12 md:py-24 lg:py-32 lg:px-20">
+    <section className="h-screen flex justify-center items-center">
       <div className="container px-4 md:px-6 flex gap-6 flex-col lg:gap-12 lg:flex-row justify-center items-center">
         <button
           onClick={() => {
@@ -25,7 +25,7 @@ export default function Header() {
         >
           {theme === "light" ? <SunIcon /> : <MoonIcon />}
         </button>
-        <div className="flex flex-col justify-center space-y-4 mt-32 lg:mt-0">
+        <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
               Hi, I&apos;m Léo Corre 👋
@@ -85,7 +85,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="relative flex h-[500px] w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg bg-background">
+        <div className="hidden relative lg:flex h-[500px] w-full max-w-[32rem] lg:items-center lg:justify-center overflow-hidden rounded-lg bg-background">
           <OrbitingCircles
             className="h-[30px] w-[30px] border-none bg-transparent"
             duration={20}
@@ -130,6 +130,7 @@ export default function Header() {
           </OrbitingCircles>
         </div>
       </div>
+      <a href="#" className="absolute bottom-0 mx-auto mb-8 animate-bounce" aria-label="Drop down"><ChevronsDown></ChevronsDown></a>
     </section>
   );
 }
