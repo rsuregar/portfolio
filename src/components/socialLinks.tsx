@@ -2,7 +2,7 @@ import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
+} from "@/src/components/ui/tooltip";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "./ui/button";

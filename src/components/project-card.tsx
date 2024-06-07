@@ -1,11 +1,12 @@
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/src/components/ui/badge";
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/src/components/ui/card";
+import { GlobeIcon } from "lucide-react";
 
 import Link from "next/link";
 
@@ -86,7 +87,7 @@ export function ProjectCard({
             {links?.map((link, idx) => (
               <Link href={link?.href} key={idx} target="_blank">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
-                  {link.icon}
+                  <GlobeIcon className="h-4 w-4" />
                   {link.type}
                 </Badge>
               </Link>
