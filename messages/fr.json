@@ -1,0 +1,84 @@
+{
+  "LocalSwitcher": {
+    "change": "Changer la langue",
+    "fr": "Français",
+    "en": "Anglais"
+  },
+  "Header": {
+    "title": "Bonjour, je m'appelle Léo Corre 👋",
+    "description": "Je suis un ingénieur logiciel passionné avec un intérêt pour",
+    "works": "Voir mes travaux",
+    "contact": "Contactez-moi",
+    "interest": "Développement Web., Design UI/UX., Frameworks Frontend., Architectures Backend., Stratégies SEO., Optimisation des performances Web., Design Responsive., Accessibilité Web., Bibliothèques JavaScript."
+  },
+  "Hook": {
+    "title": "J'aime créer des sites web en utilisant Javascript, Next.js, Tailwindcss, PHP et Drupal."
+  },
+  "About": {
+    "title": "À propos de moi",
+    "subtitle": "En quelques mots",
+    "description": "Je suis développeur full-stack depuis 3 ans, je suis actuellement en alternance pour obtenir un diplôme d'expert en systèmes informatiques et réseaux sur le campus Ynov de Lyon. Grâce à la large gamme de technologies que je maîtrise, je reste flexible pour tous types de projets."
+  },
+  "Education": {
+    "title": "Mon cursus",
+    "subtitle": "Découvrez mon cursus",
+    "nameWork": "Expériences",
+    "nameFormation": "Formations"
+  },
+  "Works": {
+    "1": {
+      "enterprise": "Micropole · Alternance",
+      "logo": "/images/logo-micropole-lyon.jpeg",
+      "position": "Ingénieur de recherche",
+      "years": "2022 - Aujourd'hui"
+    },
+    "2": {
+      "enterprise": "XEFI · CDI",
+      "logo": "/images/logo-xefi-lyon.png",
+      "position": "Analyste · Développeur",
+      "years": "2021 - 2022"
+    },
+    "3": {
+      "enterprise": "XEFI · Alternance",
+      "logo": "/images/logo-xefi-lyon.png",
+      "position": "Analyste · Développeur",
+      "years": "2020 - 2021"
+    }
+  },
+  "School": {
+    "1": {
+      "school": "YNOV · Mastère",
+      "logo": "/images/logo-ynov-lyon.png",
+      "title": "Expert en développement web",
+      "years": "2022 - Aujourd'hui"
+    },
+    "2": {
+      "school": "EPSI · Bachelor",
+      "logo": "/images/logo-epsi-lyon.png",
+      "title": "Conception et développement d'applications",
+      "years": "2020 - 2021"
+    },
+    "3": {
+      "school": "Lycée Louis Rascol · BTS",
+      "logo": "/images/logo-rascol-albi.jpeg",
+      "title": "Systèmes numériques, informatique et réseaux",
+      "years": "2018 - 2020"
+    }
+  },
+  "Footer": {
+    "title": "Restons en contact"
+  },
+  "Projects": {
+    "title": "Mes Projets",
+    "subtitle": "Découvrez mes derniers travaux",
+    "description": "J'ai travaillé sur une variété de projets, des sites web simples aux applications web complexes. Voici quelques-uns de mes préférés.",
+    "BoSante": {
+      "type": "Projet personnel",
+      "description": "Création d'un site vitrine. L'objectif est de présenter les différents services proposés par Bo Santé."
+    },
+    "SafeArea": {
+      "type": "Projet scolaire",
+      "description": "Application web permettant aux entreprises de gérer les plaintes des employés de manière sécurisée et anonyme."
+    }
+  }
+}

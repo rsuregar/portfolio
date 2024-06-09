@@ -1,0 +1,84 @@
+{
+  "LocalSwitcher": {
+    "change": "Change language",
+    "fr": "French",
+    "en": "English"
+  },
+  "Header": {
+    "title": "Hi, I'm Léo Corre 👋",
+    "description": "I'm a passionate software engineer with an interest in",
+    "works": "View My Works",
+    "contact": "Contact Me",
+    "interest": "Web Development., UI/UX Design., Frontend Frameworks., Backend Architectures., SEO Strategies., Web Performance Optimization., Responsive Design., Web Accessibility., JavaScript Libraries."
+  },
+  "Hook": {
+    "title": "I like to build websites using Javascript, Next.js, Tailwindcss, PHP and Drupal."
+  },
+  "About": {
+    "title": "About Me",
+    "subtitle": "In a few words",
+    "description": "I've been a full-stack developer for 3 years, I'm currently doing a work-study program to qualify as a computer and information systems expert on the Ynov Lyon campus. Thanks to the wide range of technologies I master, I remain flexible for all types of projects."
+  },
+  "Education": {
+    "title": "My cursus",
+    "subtitle": "Discover my cursus",
+    "nameWork": "Experiences",
+    "nameFormation": "Formations"
+  },
+  "Works": {
+    "1": {
+      "enterprise": "Micropole · Work-study",
+      "logo": "/images/logo-micropole-lyon.jpeg",
+      "position": "Research engineer",
+      "years": "2022 - Today"
+    },
+    "2": {
+      "enterprise": "XEFI · CDI",
+      "logo": "/images/logo-xefi-lyon.png",
+      "position": "Analysis · Developer",
+      "years": "2021 - 2022"
+    },
+    "3": {
+      "enterprise": "XEFI · Work-study",
+      "logo": "/images/logo-xefi-lyon.png",
+      "position": "Analysis · Developer",
+      "years": "2020 - 2021"
+    }
+  },
+  "School": {
+    "1": {
+      "school": "YNOV · Mastère",
+      "logo": "/images/logo-ynov-lyon.png",
+      "title": "Expert in web development",
+      "years": "2022 - Today"
+    },
+    "2": {
+      "school": "EPSI · Bachelor",
+      "logo": "/images/logo-epsi-lyon.png",
+      "title": "Application design and development",
+      "years": "2020 - 2021"
+    },
+    "3": {
+      "school": "Lycée Louis Rascol · BTS",
+      "logo": "/images/logo-rascol-albi.jpeg",
+      "title": "Digital Systems, IT and Networks",
+      "years": "2018 - 2020"
+    }
+  },
+  "Footer": {
+    "title": "Get in Touch"
+  },
+  "Projects": {
+    "title": "My Projects",
+    "subtitle": "Check out my latest works",
+    "description": "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
+    "BoSante": {
+      "type": "Personal project",
+      "description": "Creation of a showcase site. The aim is to present the various services offered by Bo Santé."
+    },
+    "SafeArea": {
+      "type": "School project",
+      "description": "Web application enabling companies to manage employee complaints securely and anonymously."
+    }
+  }
+}
