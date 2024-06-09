@@ -5,8 +5,8 @@
     "en": "Anglais"
   },
   "Header": {
-    "title": "Bonjour, je suis Léo Corre 👋",
-    "description": "Je suis un ingénieur logiciel passionné avec un intérêt pour",
+    "title": "Hey, je suis Léo Corre 👋",
+    "description": "Un ingénieur logiciel passionné avec un intérêt pour",
     "works": "Voir mes travaux",
     "contact": "Contactez-moi",
     "interest": "Développement Web., Design UI/UX., Frameworks Frontend., Architectures Backend., Stratégies SEO., Optimisation des performances Web., Design Responsive., Accessibilité Web., Bibliothèques JavaScript."
@@ -66,7 +66,7 @@
     }
   },
   "Footer": {
-    "title": "Contactez-nous"
+    "title": "Restons en contact"
   },
   "Projects": {
     "title": "Mes Projets",

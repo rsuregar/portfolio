@@ -20,7 +20,7 @@ export default function LocalSwitcher() {
   };
 
   return (
-    <div className="absolute right-0 top-0 m-16">
+    <div>
       <label>
         <p className="sr-only">{t("change")}</p>
         <select

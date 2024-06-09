@@ -16,21 +16,23 @@ export default function Header() {
   const t = useTranslations("Header");
   const interest: string[] = t("interest").split(", ");
 
-  const { resolvedTheme, theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
   return (
     <section className="flex h-screen items-center justify-center">
       <div className="container mb-24 flex flex-col items-center justify-center gap-10 px-4 md:mb-0 md:px-6 lg:flex-row lg:gap-16">
-        <button
-          onClick={() => {
-            setTheme(resolvedTheme === "light" ? "dark" : "light");
-          }}
-          type="button"
-          className="btn btn-primary absolute right-0 top-0 m-8"
-          aria-label="Toggle theme"
-        >
-          {theme === "light" ? <SunIcon /> : <MoonIcon />}
-        </button>
-        <LocalSwitcher />
+        <div className="absolute right-0 top-0 m-8 flex justify-center gap-4">
+          <button
+            onClick={() => {
+              setTheme(resolvedTheme === "light" ? "dark" : "light");
+            }}
+            type="button"
+            className="btn btn-primary"
+            aria-label="Toggle theme"
+          >
+            {resolvedTheme === "light" ? <SunIcon /> : <MoonIcon />}
+          </button>
+          <LocalSwitcher />
+        </div>
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
             <h1 className="mb-2 text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
