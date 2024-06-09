@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <section className="flex h-screen items-center justify-center">
       <div className="container mb-24 flex flex-col items-center justify-center gap-10 px-4 md:mb-0 md:px-6 lg:flex-row lg:gap-16">
-        <div className="absolute right-0 top-0 m-8 flex justify-center gap-4">
+        <div className="absolute right-0 top-0 m-8 flex flex-row justify-center gap-4">
           <button
             onClick={() => {
               setTheme(resolvedTheme === "light" ? "dark" : "light");
@@ -35,7 +35,7 @@ export default function Header() {
         </div>
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
-            <h1 className="mb-2 text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+            <h1 className="mb-2 text-3xl font-bold tracking-tighter sm:text-5xl">
               {t("title")}
             </h1>
             <span className="max-w-[600px] md:text-xl">
