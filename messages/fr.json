@@ -5,8 +5,8 @@
     "en": "Anglais"
   },
   "Header": {
-    "title": "Bonjour, je m'appelle Léo Corre 👋",
-    "description": "Je suis un ingénieur logiciel passionné avec un intérêt pour",
+    "title": "Léo Corre · Développeur Web",
+    "description": "Développeur web full-stack passionné avec un intérêt pour",
     "works": "Voir mes travaux",
     "contact": "Contactez-moi",
     "interest": "Développement Web., Design UI/UX., Frameworks Frontend., Architectures Backend., Stratégies SEO., Optimisation des performances Web., Design Responsive., Accessibilité Web., Bibliothèques JavaScript."
@@ -71,7 +71,7 @@
   "Projects": {
     "title": "Mes Projets",
     "subtitle": "Découvrez mes derniers travaux",
-    "description": "J'ai travaillé sur une variété de projets, des sites web simples aux applications web complexes. Voici quelques-uns de mes préférés.",
+    "description": "J'ai travaillé sur divers projets, des sites web simples aux applications web complexes. Voici quelques-uns de mes préférés.",
     "BoSante": {
       "type": "Projet personnel",
       "description": "Création d'un site vitrine. L'objectif est de présenter les différents services proposés par Bo Santé."
