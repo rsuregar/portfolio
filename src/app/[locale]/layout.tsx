@@ -42,7 +42,7 @@ export default async function RootLayout({
         className={cn("bg-background font-sans antialiased", fontSans.variable)}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <ThemeProvider defaultTheme="system" attribute="class">
+          <ThemeProvider defaultTheme="dark" attribute="class">
             <TooltipProvider>{children}</TooltipProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
