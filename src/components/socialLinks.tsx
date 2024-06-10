@@ -4,12 +4,11 @@ import {
   TooltipTrigger,
 } from "@/src/components/ui/tooltip";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import { MailIcon, PhoneIcon } from "lucide-react";
+import { MailIcon } from "lucide-react";
 import { Button } from "./ui/button";
 
 const contact = {
   email: "lcorre.pro@gmail.com",
-  tel: "+33641014222",
   social: [
     {
       name: "GitHub",
@@ -65,27 +64,6 @@ export default function SocialLinks() {
           </TooltipTrigger>
           <TooltipContent>
             <p>Email</p>
-          </TooltipContent>
-        </Tooltip>
-      ) : null}
-      {contact.tel ? (
-        <Tooltip>
-          <TooltipTrigger>
-            {" "}
-            <Button
-              className="size-8"
-              variant="outline"
-              size="icon"
-              aria-label="Send an phone call"
-              asChild
-            >
-              <a href={`tel:${contact.tel}`} target="_blank">
-                <PhoneIcon className="size-4" />
-              </a>
-            </Button>
-          </TooltipTrigger>
-          <TooltipContent>
-            <p>Phone</p>
           </TooltipContent>
         </Tooltip>
       ) : null}
