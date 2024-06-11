@@ -5,7 +5,8 @@
     "en": "Anglais"
   },
   "Header": {
-    "title": "Léo Corre · Développeur Web",
+    "title-top": "Léo Corre",
+    "title-bottom": "Développeur Web",
     "description": "Développeur web full-stack passionné avec un intérêt pour",
     "works": "Voir mes travaux",
     "contact": "Contactez-moi",
