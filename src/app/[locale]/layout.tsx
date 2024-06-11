@@ -14,9 +14,9 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Léo Corre · Full-Stack Developer",
+  title: "Léo Corre · Portfolio",
   description:
-    "Léo Corre - Full-Stack developer based in Lyon. I specialize in creating high-performance, accessible and innovative websites.",
+    "Léo Corre · Développeur Web Full-Stack basé à Lyon. Je suis spécialisé dans la création de sites web sur mesure performants et innovants.",
 };
 interface RootLayoutProps {
   children: React.ReactNode;

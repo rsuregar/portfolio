@@ -5,6 +5,7 @@ import { ChevronRight, ChevronsDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { Icons } from "./icons";
 import LocalSwitcher from "./local-switcher";
 import OrbitingCircles from "./magicui/orbiting-circles";
@@ -16,9 +17,20 @@ export default function Header() {
   const t = useTranslations("Header");
   const interest: string[] = t("interest").split(", ");
 
-  const { resolvedTheme, setTheme } = useTheme();
+  const { theme, resolvedTheme, setTheme } = useTheme();
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
+
   return (
-    <section className="flex h-screen items-center justify-center">
+    <section className="relative flex h-screen items-center justify-center">
       <div className="container mb-24 flex flex-col items-center justify-center gap-10 px-4 md:mb-0 md:px-6 lg:flex-row lg:gap-16">
         <div className="absolute right-0 top-0 m-8 flex flex-row justify-center gap-4">
           <button
@@ -36,7 +48,8 @@ export default function Header() {
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
             <h1 className="mb-2 text-3xl font-bold tracking-tighter sm:text-5xl">
-              {t("title")}
+              {t("title-top")}
+              <span className="block">{t("title-bottom")}</span>
             </h1>
             <span className="max-w-[600px] md:text-xl">
               {t("description")}
@@ -129,7 +142,7 @@ export default function Header() {
       </div>
       <a
         href="#hook"
-        className="absolute bottom-0 mx-auto mb-8 animate-bounce"
+        className="absolute bottom-8 mx-auto animate-bounce"
         aria-label="Go down to the hook section"
       >
         <ChevronsDown></ChevronsDown>

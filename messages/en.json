@@ -5,7 +5,8 @@
     "en": "English"
   },
   "Header": {
-    "title": "Léo Corre · Web Developer",
+    "title-top": "Léo Corre",
+    "title-bottom": "Web Developer",
     "description": "I'm a passionate web developer with an interest in",
     "works": "View My Works",
     "contact": "Contact Me",
