@@ -1,6 +1,6 @@
 ## Léo · Portfolio
 
-Hi I'm Léo 👋
+Hi, I'm Léo 👋
 
 Here is my portfolio created with [Next.js](https://nextjs.org/)
 
