@@ -32,10 +32,11 @@ export default function Component() {
       <Projects />
       <Footer />
       <Particles
-        className="absolute inset-0 -z-10 h-full w-full"
-        quantity={200}
+        className="absolute inset-0 -z-50 h-full w-full"
+        quantity={250}
         ease={80}
         color={color}
+        size={1}
         refresh
       />
     </main>
